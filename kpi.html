@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+	 
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+ <!-- http://t.co/dKP3o1e -->
+ <meta name="HandheldFriendly" content="True">
+ <meta name="MobileOptimized" content="320">
+
+ <title>TTSS</title>
+<style>
+        html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+ </style> 
+ 
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+ 
+<script type='text/javascript'>//<![CDATA[
+
+
+
+$.get('http://aerometalls.com/kpi/file/KPI.csv', function(data) {
+  // Split the lines
+  var lines = data.split('\n');
+  var data = [];
+
+  // Iterate over the lines and add categories or series
+  $.each(lines, function(lineNo, line) {
+    var items = line.split(', ');
+    data.push([
+    	lineNo,
+      items[0],
+      getTimeStamp(items[1]),
+      getTimeStamp(items[2])
+    ]);
+  });
+
+  // Create the chart
+  Highcharts.chart('container', {
+  	chart: {
+    	inverted: true
+    },
+    yAxis: {
+    	type: 'datetime'
+    },
+    tooltip: {
+    	pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.high:%b %e, %H:%M} - {point.low:%b %e, %H:%M}</b><br/>'
+    },
+    series: [{
+    	type: 'columnrange',
+      data: data,
+      keys: ['x','name','low','high']
+    }]
+  });
+});
+
+function getTimeStamp(rawData) {
+  var date = rawData.split(/[/ :]/);
+	return Date.UTC(date[2],date[1],date[0],date[3],date[4]);
+}
+//]]> 
+
+</script>
+
+</body>
+</html>

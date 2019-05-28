@@ -1,0 +1,254 @@
+[
+ {
+   "id": 1,
+   "group": 2,
+   "start": "2018-02-01 1:00",
+   "end": "2018-02-02 1:27",
+   "content": "FHFB1 fase 1y2"
+ },
+ {
+   "id": 2,
+   "group": 3,
+   "start": "2018-02-01 1:01",
+   "end": "2018-02-01 2:01",
+   "content": "T9001 fase 1"
+ },
+ {
+   "id": 3,
+   "group": 1,
+   "start": "2018-02-01 1:02",
+   "end": "2018-02-02 1:29",
+   "content": "FHFB2 fase 1y2"
+ },
+ {
+   "id": 4,
+   "group": 5,
+   "start": "2018-02-01 1:04",
+   "end": "2018-02-02 1:31",
+   "content": "FHFB3 fase 1y2"
+ },
+ {
+   "id": 5,
+   "group": 6,
+   "start": "2018-02-01 1:06",
+   "end": "2018-02-02 1:33",
+   "content": "FHFB4 fase 1y2"
+ },
+ {
+   "id": 6,
+   "group": 4,
+   "start": "2018-02-01 2:02",
+   "end": "2018-02-01 5:32",
+   "content": "T9001 fase 2"
+ },
+ {
+   "id": 7,
+   "group": 3,
+   "start": "2018-02-01 2:03",
+   "end": "2018-02-02 2:30",
+   "content": "FHFB5 fase 1y2"
+ },
+ {
+   "id": 8,
+   "group": 4,
+   "start": "2018-02-01 5:33",
+   "end": "2018-02-01 11:03",
+   "content": "T9001 fase 3"
+ },
+ {
+   "id": 9,
+   "group": 2,
+   "start": "2018-02-02 1:28",
+   "end": "2018-02-03 0:48",
+   "content": "FHFB1 fase 3y4"
+ },
+ {
+   "id": 10,
+   "group": 1,
+   "start": "2018-02-02 1:30",
+   "end": "2018-02-03 0:50",
+   "content": "FHFB2 fase 3y4"
+ },
+ {
+   "id": 11,
+   "group": 5,
+   "start": "2018-02-02 1:32",
+   "end": "2018-02-03 0:52",
+   "content": "FHFB3 fase 3y4"
+ },
+ {
+   "id": 12,
+   "group": 4,
+   "start": "2018-02-02 1:34",
+   "end": "2018-02-03 0:54",
+   "content": "FHFB4 fase 3y4"
+ },
+ {
+   "id": 13,
+   "group": 6,
+   "start": "2018-02-02 2:31",
+   "end": "2018-02-03 1:51",
+   "content": "FHFB5 fase 3y4"
+ },
+ {
+   "id": 14,
+   "group": 3,
+   "start": "2018-02-02 21:33",
+   "end": "2018-02-03 22:00",
+   "content": "FHFB6 fase 1y2"
+ },
+ {
+   "id": 15,
+   "group": 2,
+   "start": "2018-02-03 0:50",
+   "end": "2018-02-04 1:17",
+   "content": "FHFB7 fase 1y2"
+ },
+ {
+   "id": 16,
+   "group": 1,
+   "start": "2018-02-03 0:52",
+   "end": "2018-02-04 1:19",
+   "content": "FHFB8 fase 1y2"
+ },
+ {
+   "id": 17,
+   "group": 6,
+   "start": "2018-02-03 1:53",
+   "end": "2018-02-03 2:53",
+   "content": "TXWB1 fase 1"
+ },
+ {
+   "id": 18,
+   "group": 4,
+   "start": "2018-02-03 2:54",
+   "end": "2018-02-03 10:24",
+   "content": "TXWB1 fase 2"
+ },
+ {
+   "id": 19,
+   "group": 5,
+   "start": "2018-02-03 2:56",
+   "end": "2018-02-04 3:23",
+   "content": "FHFB9 fase 1y2"
+ },
+ {
+   "id": 20,
+   "group": 4,
+   "start": "2018-02-03 10:25",
+   "end": "2018-02-03 21:55",
+   "content": "TXWB1 fase 3"
+ },
+ {
+   "id": 21,
+   "group": 4,
+   "start": "2018-02-03 21:57",
+   "end": "2018-02-05 2:40",
+   "content": "FHFA1 fase 1y2"
+ },
+ {
+   "id": 22,
+   "group": 6,
+   "start": "2018-02-03 21:59",
+   "end": "2018-02-05 2:42",
+   "content": "FHFA2 fase 1y2"
+ },
+ {
+   "id": 23,
+   "group": 3,
+   "start": "2018-02-03 22:01",
+   "end": "2018-02-04 21:21",
+   "content": "FHFB6 fase 3y4"
+ },
+ {
+   "id": 24,
+   "group": 2,
+   "start": "2018-02-04 1:18",
+   "end": "2018-02-05 0:38",
+   "content": "FHFB7 fase 3y4"
+ },
+ {
+   "id": 25,
+   "group": 1,
+   "start": "2018-02-04 1:20",
+   "end": "2018-02-05 0:40",
+   "content": "FHFB8 fase 3y4"
+ },
+ {
+   "id": 26,
+   "group": 5,
+   "start": "2018-02-04 3:24",
+   "end": "2018-02-05 2:44",
+   "content": "FHFB9 fase 3y4"
+ },
+ {
+   "id": 27,
+   "group": 3,
+   "start": "2018-02-04 21:23",
+   "end": "2018-02-06 2:06",
+   "content": "FHFA3 fase 1y2"
+ },
+ {
+   "id": 28,
+   "group": 2,
+   "start": "2018-02-05 0:40",
+   "end": "2018-02-06 5:23",
+   "content": "FHFA4 fase 1y2"
+ },
+ {
+   "id": 29,
+   "group": 1,
+   "start": "2018-02-05 0:42",
+   "end": "2018-02-06 5:25",
+   "content": "FHFA5 fase 1y2"
+ },
+ {
+   "id": 30,
+   "group": 4,
+   "start": "2018-02-05 2:41",
+   "end": "2018-02-06 0:23",
+   "content": "FHFA1 fase 3y4"
+ },
+ {
+   "id": 31,
+   "group": 6,
+   "start": "2018-02-05 2:43",
+   "end": "2018-02-06 0:25",
+   "content": "FHFA2 fase 3y4"
+ },
+ {
+   "id": 32,
+   "group": 5,
+   "start": "2018-02-05 2:46",
+   "end": "2018-02-06 3:13",
+   "content": "FHFB10 fase 1y2"
+ },
+ {
+   "id": 33,
+   "group": 3,
+   "start": "2018-02-06 2:07",
+   "end": "2018-02-06 23:49",
+   "content": "FHFA3 fase 3y4"
+ },
+ {
+   "id": 34,
+   "group": 4,
+   "start": "2018-02-06 3:14",
+   "end": "2018-02-07 2:34",
+   "content": "FHFB10 fase 3y4"
+ },
+ {
+   "id": 35,
+   "group": 2,
+   "start": "2018-02-06 5:24",
+   "end": "2018-02-07 3:06",
+   "content": "FHFA4 fase 3y4"
+ },
+ {
+   "id": 36,
+   "group": 6,
+   "start": "2018-02-06 5:26",
+   "end": "2018-02-07 3:08",
+   "content": "FHFA5 fase 3y4"
+ }
+]
